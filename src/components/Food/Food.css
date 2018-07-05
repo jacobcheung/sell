@@ -1,0 +1,178 @@
+.foodwrap-details {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 51px;
+  background: #fff;
+  width: 100%;
+  z-index: 90;
+}
+.detail-enter-active, .detail-leave-active {
+  transition: all 1s;
+}
+.detail-enter, .detail-leave-to {
+  transform: translateX(100%);
+}
+.foodwrap-details .food-content {
+
+}
+.foodwrap-details .food-content .img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+}
+.foodwrap-details .food-content .img-wrapper .food-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.foodwrap-details .food-content .img-wrapper .close-bt {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  background: #7f7f7f;
+  border-radius: 50%;
+}
+.foodwrap-details .food-content .img-wrapper .share-bt {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+.foodwrap-details .food-content .img-wrapper .more-bt {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.foodwrap-details .food-content .details-contents {
+  padding: 0 0 16px 16px;
+  position: relative;
+}
+.foodwrap-details .food-content .details-contents .name {
+  font-size: 15px;
+  color: #333;
+  line-height: 30px;
+  font-weight: bold;
+}
+.foodwrap-details .food-content .details-contents .saled {
+  font-size: 11px;
+  color: #9d9d9d;
+  margin-bottom: 6px;
+}
+.foodwrap-details .food-content .details-contents .product {
+  height: 15px;
+  margin-bottom: 16px;
+}
+.foodwrap-details .food-content .details-contents .price {
+  font-size: 0;
+}
+.foodwrap-details .food-content .details-contents .price .text {
+  font-size: 17px;
+  color: #FB4E44;
+}
+.foodwrap-details .food-content .details-contents .price .unit {
+  font-size: 11px;
+  color: #9d9d9d;
+}
+.foodwrap-details .food-content .details-contents .cartcontrol-wrapper {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+}  
+.foodwrap-details .food-content .details-contents .buy {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  width: 64px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  background:#ffd161;
+  border-radius: 30px;
+}
+.foodwrap-details .rating-wrapper {
+  padding-left: 16px;
+}
+.foodwrap-details .rating-wrapper .rating-title {
+  padding: 16px 16px 16px 0;
+}
+.foodwrap-details .rating-wrapper .rating-title .like-ratio {
+  float: left;
+  font-size: 0;
+}
+.foodwrap-details .rating-wrapper .rating-title .like-ratio .title {
+  font-size: 13px;
+}
+.foodwrap-details .rating-wrapper .rating-title .like-ratio .ratio {
+  font-size: 11px;
+}
+.foodwrap-details .rating-wrapper .rating-title .like-ratio .ratio i {
+  font-style: normal;
+  color: #FB4E44;
+}
+.foodwrap-details .rating-wrapper .rating-title .snd-title {
+  float: right;
+  font-size: 0;
+}
+.foodwrap-details .rating-wrapper .rating-title .snd-title .text {
+  font-size: 13px;
+  color: #9d9d9d;
+  display: inline-block;
+}
+.foodwrap-details .rating-wrapper .rating-title .snd-title .icon {
+  font-size: 13px;
+  color: #9d9d9d;
+  display: inline-block;
+  margin-left: 12px;
+}
+.foodwrap-details .rating-wrapper .rating-comment {
+  padding: 15px 14px 17px 0;
+  border-bottom: 1px solid #f4f4f4;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+.foodwrap-details .rating-wrapper .rating-comment .comment-header {
+  flex: 0 0 41px;
+  margin-right: 10px;
+}
+.foodwrap-details .rating-wrapper .rating-comment .comment-header img {
+  width: 41px;
+  height: 41px;
+  border-radius: 50px;
+}
+.foodwrap-details .rating-wrapper .rating-comment .comment-main {
+  flex: 1;
+  padding-top: 6px;
+}
+.foodwrap-details .rating-wrapper .rating-comment .comment-main .user {
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  color: #333;
+}
+.foodwrap-details .rating-wrapper .rating-comment .comment-main .time {
+  width: 50%;
+  float: right;
+  text-align: right;
+  font-size: 10px;
+  color: #666;
+}
+.foodwrap-details .rating-wrapper .rating-comment .comment-main .content {
+  margin-top: 17px;
+  font-size: 13px;
+  line-height: 19px;
+
+}

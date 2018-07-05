@@ -1,0 +1,34 @@
+.cartcontrol {
+  font-size: 0;
+}
+.cart-decrease {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  font-size: 26px;
+  color: #b4b4b4;
+}
+
+.cart-count {
+  display: inline-block;
+  width: 25px;
+  font-size: 12px;
+  line-height: 26px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.cart-add {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  font-size: 26px;
+  color: #ffd161;
+}
+
+.move-enter-active, .move-leave-active {
+  transition: all .5s linear;
+}
+.move-enter,.move-leave-to {
+  transform: translateX(20px) rotate(180deg)
+}
